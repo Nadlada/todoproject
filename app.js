@@ -1,6 +1,5 @@
 //Selectors
 const todoInput = document.querySelector('.todo-input');
-const todoOwner = document.querySelector('.todo-owner');
 const todoButton = document.querySelector('.todo-button');
 const todoList = document.querySelector('.todo-list');
 const filterOption = document.querySelector('.filter-todo');

@@ -36,7 +36,7 @@ function addTodo(event){
     todoDiv.appendChild(trashButton);
     //CHECK TEST
     const testButton = document.createElement('button');
-    testButton.innerHTML = '<i class="fas fa-user-edit"></i>';
+    testButton.innerHTML = '<i class="fas fa-pencil-ruler"></i>';
     testButton.classList.add("test-btn");
     todoDiv.appendChild(testButton);
     //APPEND TO LIST

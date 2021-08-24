@@ -10,17 +10,21 @@ body{
     font-family: "Poppins",sans-serif ;
     min-height: 100vh;
 }
-
+h1{
+    background-color: #5c3bdf;
+    width: 50%;
+    border-radius: 5px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 header{
     font-size: 1.5rem;
-}
-
+}    
 header,form{
     min-height: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 form input,form button{
@@ -67,18 +71,18 @@ form button:hover{
     list-style: none;
 }
 .trash-btn,.complete-btn,.test-btn{
-    background:rgb(121, 31, 80);
-    color: white;
+    background:rgb(194, 34, 34);
+    color:azure;
     border: none;
     padding: 1rem;
     cursor: pointer;
     font-size: 1rem;
 }
 .complete-btn{
-    background-color: rgb(10, 46, 145);
+    background-color: rgb(201, 235, 52);
 }
 .test-btn{
-    background-color:palevioletred;
+    background-color: rgb(84, 58, 175);
 }
 
 .todo-item{
@@ -86,7 +90,7 @@ form button:hover{
 }
 
 .fa-trash,
-.fa-check,.fa-user-edit{
+.fa-check,.fa-pencil-ruler{
     pointer-events: none;
 }
 
@@ -101,8 +105,8 @@ form button:hover{
 }
 .testing{
     opacity: 0.8;
-    color:palevioletred;
-    border: 5px solid rgb(216, 223, 118);
+    color: rgb(84, 58, 175);
+    border: 5px solid rgb(84, 58, 175);
 }
 select{
     -webkit-appearance:none;

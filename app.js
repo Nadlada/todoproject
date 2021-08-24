@@ -1,5 +1,6 @@
 //Selectors
 const todoInput = document.querySelector('.todo-input');
+const todoOwner = document.querySelector('.todo-owner');
 const todoButton = document.querySelector('.todo-button');
 const todoList = document.querySelector('.todo-list');
 const filterOption = document.querySelector('.filter-todo');
@@ -24,6 +25,7 @@ function addTodo(event){
     todoDiv.appendChild(newTodo);
     //CHECK TODO TO LOCALSTORAGE
     saveLocalTodos(todoInput.value);
+    saveLocalTodos(todoOwner.value);
     //CHECK MARK BUTTON
     const completedButton = document.createElement('button');
     completedButton.innerHTML = '<i class="fas fa-check-circle"></i>';

@@ -24,7 +24,6 @@ function addTodo(event){
     todoDiv.appendChild(newTodo);
     //CHECK TODO TO LOCALSTORAGE
     saveLocalTodos(todoInput.value);
-    saveLocalTodos(todoOwner.value);
     //CHECK MARK BUTTON
     const completedButton = document.createElement('button');
     completedButton.innerHTML = '<i class="fas fa-check-circle"></i>';

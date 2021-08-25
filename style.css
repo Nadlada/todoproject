@@ -68,29 +68,30 @@ form button:hover{
     list-style: none;
 }
 .trash-btn,.complete-btn,.test-btn{
-    background:rgb(185, 0, 0);
-    color:azure;
+    background:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
     border: none;
     padding: 1rem;
     cursor: pointer;
     font-size: 1rem;
 }
 .trash-btn:hover{
-    background-color: rgb(223, 37, 37);
+    color:red;
 }
 .complete-btn{
-    background-color:  rgb(43, 38, 29);
-    background-blend-mode:soft-light;
+    background-color:  wheat;
+    color: black;
 }
 .complete-btn:hover{
-    background-color: rgb(17, 112, 68);
-    opacity: 50%;
+    background-color: wheat;
+    color:rgb(34, 197, 121);
 }
 .test-btn{
-    background-color:rgb(228, 181, 94);
+    background-color:rgb(255, 253, 253);
+    color: black;
 }
 .test-btn:hover{
-    background-color: rgba(241, 158, 3, 0.973);
+    color: rgb(231, 187, 43);
 }
 .todo-item{
     padding: 0rem,0.5rem;
@@ -141,6 +142,6 @@ select{
     transition: all 0.3 ease;
 }
 .select:hover::after{
-    background: white;
-    color: rgb(85, 71, 71);
+    background: rgba(85, 71, 71, 0.705);
+    color: white;
 }
